@@ -7,8 +7,8 @@ function Portfolio() {
       <h2>My Work</h2>
       <div className="projects">
         <div className="project">
-          <h3>Tic-Tac-Toe</h3>
-          <a href="/projects/tic-tac-toe">View Project</a>
+          <h3>Resume-Screening</h3>
+          <a href="/projects/Resume-Screening">View Project</a>
         </div>
       </div>
     </section>
