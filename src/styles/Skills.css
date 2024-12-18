@@ -1,0 +1,37 @@
+.skills {
+    padding: 4rem 2rem;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+  
+  .skill-set {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .skill {
+    width: 150px;
+    padding: 1rem;
+    background-color: #444;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .skill i {
+    font-size: 2rem;
+    color: #00bcd4;
+    margin-bottom: 0.5rem;
+  }
+  
+  .skill h3 {
+    margin: 0;
+  }
+  
+  .skill:hover {
+    transform: scale(1.1);
+    background-color: #555;
+  }
+  

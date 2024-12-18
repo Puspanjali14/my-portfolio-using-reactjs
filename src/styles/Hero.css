@@ -1,0 +1,61 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(to bottom right, #1a1a1a, #333);
+    color: white;
+    animation: fadeIn 1.5s ease;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content .highlight {
+    color: #00bcd4;
+    animation: textGlow 2s infinite alternate;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+  }
+  
+  .hero-image img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    animation: rotateIn 1.5s ease;
+  }
+  
+  @keyframes textGlow {
+    from {
+      text-shadow: 0 0 5px #00bcd4, 0 0 10px #00bcd4;
+    }
+    to {
+      text-shadow: 0 0 20px #00bcd4, 0 0 40px #00bcd4;
+    }
+  }
+  
+  @keyframes rotateIn {
+    from {
+      transform: scale(0.5) rotate(-45deg);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1) rotate(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

@@ -1,0 +1,51 @@
+.about {
+    padding: 4rem 2rem;
+    background-color: #222;
+    color: white;
+  }
+  
+  .about .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profile-photo img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    animation: zoomIn 1s ease;
+  }
+  
+  .bio {
+    max-width: 500px;
+  }
+  
+  .bio .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #00bcd4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .bio .btn:hover {
+    background-color: #008c9e;
+  }
+  
+  @keyframes zoomIn {
+    from {
+      transform: scale(0.8);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
